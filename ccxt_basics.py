@@ -34,7 +34,7 @@ for ticker in balances['total']:
 
 # Orders
 exchange.create_market_sell_order('ADA/USDT', amount = 30)
-exchange.create_market_buy_order('ADA/USDT', amount = 30)
+exchange.create_market_buy_order('ETH/USDT', amount = 100)
 
 # Fees
 # https://github.com/ccxt/ccxt/wiki/Manual#fees
